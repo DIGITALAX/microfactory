@@ -74,7 +74,7 @@ const MyApp = ({ Component, pageProps, store, err }) => {
     <Provider store={store}>
       <Head>
         <title>F3Manifesto - CC0 Web3 Fashion</title>
-        <link rel="icon" type="image/png" href="/images/favicon.ico" />
+        <link rel="icon" type="image/png" href="/images/favicon-digitalax.ico" />
         <link href="https://fonts.cdnfonts.com/css/internal-rainbows" rel="stylesheet" />
         <link href="https://fonts.cdnfonts.com/css/inter" rel="stylesheet" />
         {loadArkane && <script src="/arkane-network/web3-arkane-provider.js"></script>}
