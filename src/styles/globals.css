@@ -5,7 +5,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box !important;
   font-weight: 600 !important;
-  background-color: white;
+  background-color: black;
 
   overflow-x: hidden;
 }
@@ -432,7 +432,7 @@ button:focus {
     line-height: 24.2px;
     font-weight: 300;
     padding-right: 32px;
-    color:white;
+    color:black;
     padding-left:0px;
     font-family: 'inter';
   }
