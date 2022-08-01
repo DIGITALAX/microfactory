@@ -1,0 +1,62 @@
+// @import '../../assets/scss/helpers/variables.scss';
+
+.howToSectionWrapper {
+
+
+
+  .category {
+    position: absolute;
+    width: 60.34vw;
+    left: 20vw;
+    top: 2.76vw;
+    z-index: 6;
+    text-align: center;
+
+
+    li {
+      color: white;
+      font-family: "New Press";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 4vw;
+      line-height: 100%;
+
+      display: block;
+
+
+    @media screen and (max-width: 768px) {
+
+      font-size: 6vw;
+    }
+    
+    }
+
+    @media screen and (max-width: 768px) {
+
+      width: 60.34vw;
+    }
+  }
+
+  .grid {
+    position: absolute;
+    top: 16.76vw;
+    display: grid;
+
+    gap: 2vw;
+  
+  
+    grid-template-columns: repeat(5, 1fr);
+
+    @media screen and (max-width: 768px) {
+
+      top: 23.76vw;
+    }
+  }
+
+  .individualItems{
+
+    width: 3vw;
+    height: 3vw;
+
+  }
+}
