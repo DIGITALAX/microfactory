@@ -83,28 +83,6 @@ function Landing(props) {
               <h1 id="title">
                 Renewable<br></br> Web3 <br></br>Co-Ops
               </h1>
-
-              {/* <img
-                src="/images/homepage/1.png"
-                className={styles.initImage1}
-                id="init_image1"
-              />
-              <img
-                src="/images/homepage/2.png"
-                className={styles.initImage3}
-                id="init_image3"
-              />
-              <img
-                src="/images/homepage/3.png"
-                className={styles.initImage2}
-                id="init_image2"
-              />
-              <img
-                src="/images/homepage/4.png"
-                className={styles.initImage4}
-                id="init_image4"
-              /> */}
-
              
             </div>
               </section>
@@ -112,7 +90,7 @@ function Landing(props) {
             <HowToSection />
           </section>
           <section className={styles.pfpSection} id="pfp_section">
-            <PFPSection style1="style1" clickedStyle="clickedStyle"/>
+            <PFPSection/>
           </section>
         
         </div>

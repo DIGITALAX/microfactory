@@ -29,6 +29,14 @@
       top: 28vw;
       font-size: 4vw;
     }
+
+
+    @media screen and (max-width: 576px) {
+      left: 16vw;
+      top: 28vw;
+      font-size: 7vw;
+      width: 70vw;
+    }
   }
 
   .style1 {
@@ -116,6 +124,15 @@
 
       left: 39.3vw;
       top: 45vw;
+
+    }
+
+    @media (max-width: 576px) {
+      width: 35vw;
+      height: 8vw;
+
+      left: 31.5vw;
+      top: 75vw;
 
     }
     }

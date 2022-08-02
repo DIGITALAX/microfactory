@@ -26,7 +26,7 @@ const PFPSection = (props) => {
       <RedButton className={styles.pfpButton} onClick={clickMe}>
       Mint Live Soon
       </RedButton>
-      {/* <div className={props.clicked}>
+      {/* <div className={styles.style1}>
       Read <a href="https://www.digifizzy.xyz/" style={{ color: "white" }} >DIGIFIZZY</a> while you wait.
       </div> */}
       

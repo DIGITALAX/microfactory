@@ -32,6 +32,11 @@
       height: 70vw;
       z-index: 2;
 
+      @media (max-width: 576px) {
+        height: 90vw;
+  
+      }
+
       h1 {
         position: absolute;
         left: 50.64vw;
@@ -47,82 +52,18 @@
 
         color: white;
 
+        @media (max-width: 576px) {
+          font-size: 5.5vw;
+          left: 46.64vw;
+    
+        }
+
         sub {
           font-size: 6vw;
           margin-top: 7vw;
           margin-left: -3%;
           margin-right: 1vw;
         }
-      }
-
-      .initImage1 {
-        position: absolute;
-        width: 21.45vw;
-        height: 25.15vw;
-        left: 6.4vw;
-        top: 37.34vw;
-
-        mix-blend-mode: luminosity;
-        transform-origin: 50% 50%;
-        transform: rotate(-5deg);
-      }
-
-      .initImage2 {
-        position: absolute;
-
-        width: 23.17vw;
-        height: 27.29vw;
-        left: 22.7vw;
-        top: 58.17vw;
-
-        mix-blend-mode: luminosity;
-      }
-
-      .initImage3 {
-        position: absolute;
-        width: 20.26vw;
-        height: 26.66vw;
-        left: 42.39vw;
-        top: 35.88vw;
-
-        // mix-blend-mode: luminosity;
-        transform-origin: 50% 50%;
-        transform: rotate(10deg);
-      }
-
-      .initImage4 {
-        position: absolute;
-        width: 29.26vw;
-        height: 17.86vw;
-        left: 45.88vw;
-        top: 70.46vw;
-
-        transform-origin: 50% 50%;
-        transform: rotate(-30deg);
-      }
-
-      .badge1 {
-        position: absolute;
-        left: 23vw;
-        top: 34.4vw;
-      }
-
-      .badge2 {
-        position: absolute;
-        left: 60vw;
-        top: 33vw;
-      }
-
-      .badge3 {
-        position: absolute;
-        left: 40vw;
-        top: 56vw;
-      }
-
-      .badge4 {
-        position: absolute;
-        left: 64vw;
-        top: 61vw;
       }
     }
     @include md-width {
@@ -209,11 +150,22 @@
     position: relative;
     min-height: 62.18vw;
     background-color: black;
+
+    @media (max-width: 576px) {
+      min-height: 100vw;
+
+    }
   }
 
   .pfpSection {
     position: relative;
     min-height: 60vw;
+
+    @media (max-width: 576px) {
+      min-height: 100vw;
+
+    }
+
   }
 
   .freedomSection {
@@ -267,6 +219,7 @@
     padding: 5%;
     text-align: center;
     padding-bottom: 250px;
+    min-height: 60vw;
 
     .mainPart {
       h1 {

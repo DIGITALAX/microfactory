@@ -40,6 +40,12 @@
 
     font-size: 4vw;
   }
+
+  @media screen and (max-width: 576px) {
+    padding-top: 7vw;
+
+    font-size: 6vw;
+  }
   
 }
 
@@ -60,7 +66,7 @@
 
 
   @media screen and (max-width: 576px) {
-    height: 20px;
+    height: 15px;
   }
 
   
@@ -116,6 +122,19 @@
     height: 15px;
     margin-left: 5px;
   }
+
+  
+}
+
+
+@media (max-width: 576px) {
+  
+
+  .footerWrapper .imageLogo {
+    height: 15px;
+    margin: auto;
+  }
+
 
   
 }

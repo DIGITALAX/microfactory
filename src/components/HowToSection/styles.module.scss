@@ -12,6 +12,9 @@
     z-index: 6;
     text-align: center;
 
+  
+    
+
 
     li {
       color: white;
@@ -27,6 +30,11 @@
     @media screen and (max-width: 768px) {
 
       font-size: 6vw;
+    }
+
+    @media screen and (max-width: 576px) {
+
+      font-size: 8vw;
     }
     
     }
@@ -51,6 +59,12 @@
 
       top: 23.76vw;
     }
+
+    @media screen and (max-width: 576px) {
+
+      top: 38.76vw;
+    }
+    
   }
 
   .individualItems{
