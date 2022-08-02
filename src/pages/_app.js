@@ -80,17 +80,11 @@ const MyApp = ({ Component, pageProps, store, err }) => {
         {loadArkane && <script src="/arkane-network/web3-arkane-provider.js"></script>}
         {/* <script src="/js/custom.js"></script> */}
       </Head>
-      <UseWalletProvider chainId={137}>
         <InitWrapper>
           <HeaderTopLine />
-          <Modals />
-          <NetworkWrapper>
             <Component {...pageProps} />
-          </NetworkWrapper>
           <Footer />
         </InitWrapper>
-        <ToastContainer />
-      </UseWalletProvider>
     </Provider>
   )
 }
