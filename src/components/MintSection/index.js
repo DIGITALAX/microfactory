@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import YellowButton from "@components/YellowButton";
 import styles from "./styles.module.scss";
 import { stubTrue } from "lodash";
 
