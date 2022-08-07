@@ -3,17 +3,7 @@
       "baseUrl": ".",
       "paths": {
         "@components/*": ["./src/components/*"],
-        "@containers/*": ["./src/containers/*"],
-        "@constants/*": ["./src/constants/*"],
-        "@selectors/*": ["./src/selectors/*"],
-        "@reducers/*": ["./src/reducers/*"],
         "@assets/*": ["./src/assets/*"],
-        "@helpers/*": ["./src/helpers/*"],
-        "@services/*": ["./src/services/*"],
-        "@utils/*": ["./src/utils/*"],
-        "@actions/*": ["./src/actions/*"],
-        "@hooks/*": ["./src/hooks/*"],
-        "@data/*": ["./src/data/*"],
       }
     },
     "exclude": [

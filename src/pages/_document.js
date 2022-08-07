@@ -2,23 +2,6 @@
 import React from "react";
 import Document, { NextScript, Html, Main, Head } from "next/document";
 
-const scriptTxt = `
-(function () {
-  const { pathname } = window.location;
-  const ipfsMatch = /.*\\/Qm\\w{44}\\//.exec(pathname); 
-  const base = document.createElement('base') 
-  base.href = ipfsMatch ? ipfsMatch[0] : '/';
-  document.head.append(base); 
-})();
-`;
-
-const gaScriptTxt = `
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-
-gtag('config', 'UA-194369113-3');
-`;
 
 class MyDocument extends Document {
   getPreloadFontsLinks() {
@@ -39,12 +22,10 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <script dangerouslySetInnerHTML={{ __html: scriptTxt }} />
           <script
             async
             src="https://www.googletagmanager.com/gtag/js?id=UA-194369113-3"
           ></script>
-          <script dangerouslySetInnerHTML={{ __html: gaScriptTxt }} />
           <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"

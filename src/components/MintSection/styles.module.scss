@@ -1,0 +1,142 @@
+@import '../../assets/scss/helpers/variables.scss';
+
+.PFPSectionWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 20vw;
+
+  .title{
+    position: absolute;
+    left: 21vw;
+    top: 28vw;
+
+    font-family: 'Old Press Original';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vw;
+
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+    @media screen and (max-width: 768px) {
+      left: 13vw;
+      top: 28vw;
+      font-size: 4vw;
+    }
+
+
+    @media screen and (max-width: 576px) {
+      left: 16vw;
+      top: 28vw;
+      font-size: 7vw;
+      width: 70vw;
+    }
+  }
+
+  .style1 {
+    position: absolute;
+    left: 37vw;
+    top: 20vw;
+
+    font-family: 'Old Press Original';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 49px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #4E4AFF;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    visibility: hidden;
+
+    @media (max-width: 576px) {
+      font-size: 2.7vw;
+      line-height: 100%;
+      top: 18.5vw;
+      left: 36vw;
+      -webkit-text-stroke-width: 0.2px;
+
+    }
+  }
+
+  .clickedStyle {
+    position: absolute;
+    left: 37vw;
+    top: 20vw;
+
+    font-family: 'Old Press Original';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 60px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    visibility: visible;
+
+    @media (max-width: 576px) {
+      font-size: 2.7vw;
+      line-height: 100%;
+      top: 18.5vw;
+      left: 36vw;
+    }
+  }
+
+  .pfpButton{
+    position: absolute;
+    width: 12vw;
+    height: 3vw;
+    left: 43.3vw;
+    top: 40vw;
+
+    background: #74CDEB;
+    border-radius: 20px;
+
+    // &:hover {
+    // transform: scale(1.1);
+    // transform: rotate(360deg);
+    // }
+
+    @media screen and (max-width: 768px) {
+      width: 23vw;
+      height: 6vw;
+
+      left: 39.3vw;
+      top: 45vw;
+
+    }
+
+    @media (max-width: 576px) {
+      width: 35vw;
+      height: 8vw;
+
+      left: 31.5vw;
+      top: 75vw;
+
+    }
+    }
+
+
+
+  }
+
+
+  
+  
