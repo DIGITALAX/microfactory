@@ -41,16 +41,14 @@
 
   .style1 {
     position: absolute;
-    left: 37vw;
-    top: 20vw;
+    left: 41vw;
+    top: 43vw;
 
     font-family: 'Old Press Original';
     font-style: normal;
     font-weight: 400;
     font-size: 2vw;
     line-height: 49px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #4E4AFF;
     /* identical to box height */
 
     display: flex;
@@ -71,16 +69,18 @@
     }
   }
 
-  .clickedStyle {
+
+
+  .styleClicked {
     position: absolute;
-    left: 37vw;
-    top: 20vw;
+    left: 41vw;
+    top: 43vw;
 
     font-family: 'Old Press Original';
     font-style: normal;
     font-weight: 400;
     font-size: 2vw;
-    line-height: 60px;
+    line-height: 49px;
     /* identical to box height */
 
     display: flex;
@@ -88,15 +88,31 @@
     text-align: center;
 
     color: #FFFFFF;
+    text-decoration: underline;
 
     visibility: visible;
 
-    @media (max-width: 576px) {
+    @media (max-width: 768px) {
       font-size: 2.7vw;
       line-height: 100%;
-      top: 18.5vw;
-      left: 36vw;
+      top: 53vw;
+      left: 39vw;
     }
+    
+
+    @media (max-width: 576px) {
+      font-size: 4vw;
+      line-height: 100%;
+      top: 87vw;
+      left: 31.7vw;
+    }
+
+
+  }
+
+  .linked {
+    color:white;
+    
   }
 
   .pfpButton{
@@ -105,6 +121,42 @@
     height: 3vw;
     left: 43.3vw;
     top: 40vw;
+
+    min-width: 8.64vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 3px 2px 2px 1px rgba(0, 0, 0, 1);
+  
+    font-family: 'Old Press Original';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2vw;
+    line-height: 133%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+  
+    color: black;
+  
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: translate(1px, 1px);
+      box-shadow: 0 0 0 0;
+    }
+  
+    @media (max-width: 768px) {
+      font-size: 3.4vw;
+  
+    }
+  
+    @media (max-width: 576px) {
+      font-size: 5.4vw;
+  
+    }
 
     background: #74CDEB;
     border-radius: 20px;

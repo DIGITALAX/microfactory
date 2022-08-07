@@ -73,9 +73,6 @@ button:focus {
 .font-rainbow {
   font-family: Internal Rainbows;
 }
-.font-inter {
-  font-family: Inter;
-}
 .text-xxs {
   font-size: 9.5px;
 }
@@ -226,13 +223,7 @@ button:focus {
 }
 
 
-.minttext{
-  font-family: Inter;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height:1.5rem;
-  margin-top:2.5rem;
-}
+
 .mintform{
   width:50%;
   margin-bottom:5rem;
@@ -415,27 +406,8 @@ button:focus {
     background: black;
     padding: 28px 0;
   }
-  .fractionalcontent {
-    text-align: center;
-    font-size: 20px;
-    line-height: 24.2px;
-    font-weight: 300;
-    padding-right: 32px;
-    color:white;
-    padding-left:0px;
-    font-family: 'inter';
-    margin-top:2.5rem;
-  }
-  .fractionalul{
-    text-align: center;
-    font-size: 20px;
-    line-height: 24.2px;
-    font-weight: 300;
-    padding-right: 32px;
-    color:black;
-    padding-left:0px;
-    font-family: 'inter';
-  }
+ 
+
   .headerimages{
     margin-bottom: 17px;
   }
@@ -547,8 +519,4 @@ button:focus {
   transform: translate3d(0,2vw,0);
 }
 
-.slider--odd
-{
-
-}
 
